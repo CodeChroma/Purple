@@ -2251,6 +2251,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "purple"
+version = "0.1.0"
+dependencies = [
+ "amethyst",
+]
+
+[[package]]
 name = "quickcheck"
 version = "0.9.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3723,10 +3730,3 @@ name = "xml-rs"
 version = "0.8.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "2bb76e5c421bbbeb8924c60c030331b345555024d56261dae8f3e786ed817c23"
-
-[[package]]
-name = "yellow"
-version = "0.1.0"
-dependencies = [
- "amethyst",
-]
