@@ -1,6 +1,6 @@
-# Yellow - A simple Rust game
+# Purple — A simple Rust game
 
-[![Build Status](https://travis-ci.com/Druue/yellow.svg?branch=master)](https://travis-ci.com/Druue/yellow)
+[![Build Status](https://travis-ci.com/Druue/purple.svg?branch=master)](https://travis-ci.com/Druue/purple)
 
 More information will come....
 

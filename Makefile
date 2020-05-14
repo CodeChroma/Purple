@@ -1,4 +1,4 @@
-DOCKER_IMAGE = yellow:latest
+DOCKER_IMAGE = purple:latest
 run:
 	docker run --rm -it ${DOCKER_IMAGE} cargo run
 build:
@@ -6,4 +6,4 @@ build:
 test:
 	docker run --rm -it ${DOCKER_IMAGE} cargo test
 setup:
-	docker build -t yellow .
+	docker build -t purple .

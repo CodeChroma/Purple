@@ -2,8 +2,8 @@
 FROM magnonellie/amethyst-dependencies:latest
 
 # create a new empty shell project
-RUN USER=root cargo new --bin yellow
-WORKDIR /yellow
+RUN USER=root cargo new --bin purple
+WORKDIR /purple
 
 # copy over your manifests
 COPY ./Cargo.lock ./Cargo.lock
@@ -17,8 +17,8 @@ RUN rm src/*.rs
 COPY ./src ./src
 
 # build for debug
-RUN rm ./target/debug/deps/yellow*
+RUN rm ./target/debug/deps/purple*
 RUN cargo build
 
 # set the startup command to run your binary
-CMD ["./target/debug/yellow"]
+CMD ["./target/debug/purple"]
