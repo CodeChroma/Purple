@@ -1,0 +1,39 @@
+List((
+    texture_width: 256,
+    texture_height: 32,
+    sprites: [
+        // (x: 0, y: 0, width: 256, height: 32),
+        (x: 0, y: 0, width: 16, height: 16),    // 1 Hard Block
+        (x: 0, y: 16, width: 16, height: 16),   // 2 Brick
+        (x: 16, y: 0, width: 16, height: 16),   // 3 Rock
+        (x: 16, y: 16, width: 16, height: 16),  // 4 Bush Left
+        (x: 32, y: 0, width: 16, height: 16),   // 5 Brick 2
+        (x: 32, y: 16, width: 16, height: 16),  // 6 Bush Middle
+        (x: 48, y: 0, width: 16, height: 16),   // 7 Question Block
+        (x: 48, y: 16, width: 16, height: 16),  // 8 Bush Right
+        (x: 64, y: 0, width: 16, height: 16),   // 9 Cloud Left Top
+        (x: 64, y: 16, width: 16, height: 16),  // 10 Cloud Left Bottom
+        (x: 80, y: 0, width: 16, height: 16),   // 11 Cloud Middle Top
+        (x: 80, y: 16, width: 16, height: 16),  // 12 Cloud Middle Bottom
+        (x: 96, y: 0, width: 16, height: 16),   // 13 Cloud Right Top
+        (x: 96, y: 16, width: 16, height: 16),  // 14 Cloud Right Bottom
+        (x: 112, y: 0, width: 16, height: 16),  // 15 Sky
+        (x: 112, y: 16, width: 16, height: 16), // 16 Mountain Left
+        (x: 128, y: 0, width: 16, height: 16),  // 17 Mountain Top
+        (x: 128, y: 16, width: 16, height: 16), // 18 Mountain Middle Spots
+        (x: 144, y: 0, width: 16, height: 16),  // 19 Mountain Middle
+        (x: 144, y: 16, width: 16, height: 16), // 20 Mountain Right
+        (x: 160, y: 0, width: 16, height: 16),  // 21 Pipe Left Top
+        (x: 160, y: 16, width: 16, height: 16), // 22 Pipe Left Bottom
+        (x: 176, y: 0, width: 16, height: 16),  // 23 Pipe Right Top
+        (x: 176, y: 16, width: 16, height: 16), // 24 Pipe Right Bottom
+        (x: 192, y: 0, width: 16, height: 16),  // 25 Flag Pole Top
+        (x: 192, y: 16, width: 16, height: 16), // 26 Flag Pole
+        (x: 208, y: 0, width: 16, height: 16),  // 27 Castle Battlement No Wall
+        (x: 208, y: 16, width: 16, height: 16), // 28 Castle Opening Left Bottom
+        (x: 224, y: 0, width: 16, height: 16),  // 29 Castle Opening Middle Top
+        (x: 224, y: 16, width: 16, height: 16), // 30 Castle Opening Middle Bottom
+        (x: 240, y: 0, width: 16, height: 16),  // 31 Castle Battlement Wall
+        (x: 240, y: 16, width: 16, height: 16), // 32 Castle Opening Right Bottom
+    ],
+))
