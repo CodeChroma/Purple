@@ -6,14 +6,12 @@ More information will come....
 
 
 How to work with the project:
-* Docker:
-  * `make run` to run the application
-  * `make test` to test the application
-  * `make build` to build the application
-* Cargo:
+* Windows:
   * `cargo run` to run the application
   * `cargo test` to test the application
   * `cargo build` to build the application
+* Mac:
+  * `make run` to run the application
   
 ## Contributors
 
