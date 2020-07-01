@@ -9,7 +9,7 @@ Prefab(
           // SpriteSheetPrefab with index 0
           sheet: Sheet(
             // TexturePrefab
-            texture: File("textures/goomba.png", (
+            texture: File("textures/fireball.png", (
               "IMAGE", (
                 sampler_info: (
                   min_filter: Nearest,
@@ -33,48 +33,25 @@ Prefab(
                 texture_width: 48,
                 texture_height: 16,
                 sprites: [
-                  // Left foot
                   (x: 0, y: 0, width: 16, height: 16), // 1
-                  // Right foot
                   (x: 16, y: 0, width: 16, height: 16), // 2
-                  // Stomped
-                  (x: 24, y: 0, width: 16, height: 16), // 2
+                  (x: 0, y: 16, width: 16, height: 16), // 3
+                  (x: 16, y: 16, width: 16, height: 16), // 4
                 ],
               )),
             ],
             // optional
-            name: "goomba",
+            name: "fireball",
           ),
           // SpriteRenderPrefab
           render: (
-            sheet: "goomba",
+            sheet: "fireball",
             sprite_number: 0,
           ),
         ),
         // AnimationSetPrefab
         animation_set: (
           animations: [
-            (
-              // AnimationId
-              Die,
-              (
-                samplers: [
-                  (
-                    0,
-                    // Only SpriteIndex channel allowed for SpriteRender in AnimationSetPrefab
-                    SpriteIndex,
-                    (
-                      // Time of key frames
-                      input: [0.0],
-                      // Sprite indexes from SpriteSheet for key frames
-                      output: [2],
-                      // Sprites can only ever be animated with Step
-                      function: Step,
-                    ),
-                  ),
-                ],
-              ),
-            ),
             (
               // AnimationId
               Move,
@@ -86,9 +63,9 @@ Prefab(
                     SpriteIndex,
                     (
                       // Time of key frames
-                      input: [0.0, 0.1],
+                      input: [0.0, 0.1, 0.2, 0.3],
                       // Sprite indexes from SpriteSheet for key frames
-                      output: [0, 1],
+                      output: [0, 1, 2, 3],
                       // Sprites can only ever be animated with Step
                       function: Step,
                     ),
